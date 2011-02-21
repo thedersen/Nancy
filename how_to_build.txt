@@ -40,3 +40,8 @@ After the build has completed, there will be a new folder in the root called "bu
 * packages -> Zip file containing the binaries (other configurations might be added in the future)
 * documentation -> Generated documentation (todo)
 * coverage -> Test coverage reports (todo)
+
+If you do not have ruby:
+
+1. You need to manually create the src\SharedAssemblyInfo.cs file (it can be an empty file)
+2. Open src\Nancy.sln with Visual Studio and Build the solution
